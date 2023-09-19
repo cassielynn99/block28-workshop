@@ -1,29 +1,22 @@
-import { useState } from "react";
 import "./App.css";
-import { Routes, Route, Link } from "react-router-dom";
-import Blue from "./components/Blue";
-import Red from "./components/Red";
-import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import MainSection from "./components/MainSection";
+import Footer from "./components/Footer";
 
 // to view: http://localhost:5173/
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div id="container">
         <div id="navbar">
-          <Link to="/blue">Blue</Link>
-          <Link to="/red">Red</Link>
-          <Link to="/">Home</Link>
+          <Navbar />
         </div>
         <div id="main-section">
-          <Routes>
-            <Route path="/blue" element={<Blue />} />
-            <Route path="/red" element={<Red />} />
-            <Route path="/" element={<Home />} />
-          </Routes>
+          <MainSection />
+        </div>
+        <div id="footer">
+          <Footer />
         </div>
       </div>
     </>

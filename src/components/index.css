@@ -1,0 +1,50 @@
+body {
+  display: flex;
+}
+
+.red {
+  background-color: #b05f6d;
+  color: white;
+}
+
+.blue {
+  background-color: #275db3;
+  color: white;
+}
+
+.home {
+  background-color: black;
+  color: white;
+}
+
+.cyan {
+  background-color: cyan;
+  color: white;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+.purple {
+  background-color: purple;
+  color: white;
+}
+
+.yellow {
+  background-color: yellow;
+  color: white;
+}
+
+#navbar {
+  justify-content: center;
+}
+
+#footer {
+  justify-content: center;
+}
+
+#color {
+    justify-content: space-evenly;
+}
