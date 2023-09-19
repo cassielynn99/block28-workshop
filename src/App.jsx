@@ -9,9 +9,7 @@ function App() {
   return (
     <>
       <div id="container">
-        <div id="navbar">
           <Navbar />
-        </div>
         <div id="main-section">
           <MainSection />
         </div>
